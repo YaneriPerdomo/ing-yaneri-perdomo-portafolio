@@ -8,7 +8,6 @@ const props = defineProps({
   },
 });
 
-// Mapa para asociar tecnologías con sus clases CSS y nombres de visualización
 const techMap = {
   HTML5: { class: "tools__item--HTML5", name: "HTML5" },
   CSS: { class: "tools__item--CSS", name: "CSS" },
@@ -71,7 +70,6 @@ const getTechName = (techName) => {
 </template>
 
 <style scoped>
-/* Estilos principales para el contenedor de la tarjeta */
 
 .card__link {
   text-align: end;

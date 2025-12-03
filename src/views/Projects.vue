@@ -5,8 +5,8 @@ import Layout from "@/components/Layout.vue";
 
 import List from "@/components/List.vue";
 const PROJECTS = [
-  {
-    title: "Aplicacion web para el control de ventas e inventarios",
+{
+    title: "Sistema Web de Monitoreo y Gestión Logística de Rutas Terrestres Urbanas",
     technologiesUsed: [
       "HTML5",
       "CSS",
@@ -16,17 +16,31 @@ const PROJECTS = [
       "MySQL",
       "AJAX",
     ],
-    img: "/img/StockYp/welcome.PNG",
+    img: "/img/logi-plan/iniciar-sesion.PNG",
+    url: "proyectos/logi-plan",
+  },  
+{
+    title: "Aplicacion Web para el Control de Ventas e Inventarios",
+    technologiesUsed: [
+      "HTML5",
+      "CSS",
+      "JavaScript(ES6)",
+      "Bootstrap",
+      "Laravel",
+      "MySQL",
+      "AJAX",
+    ],
+    img: "/img/StockYp/panel.PNG",
     url: "proyectos/stock-yp",
   },
   /**{
-    title: "Aplicación web para consultar el valor del dólar en Venezuela en tiempo real",
+    title: "Aplicación Web para consultar el valor del dólar en Venezuela en tiempo real",
     technologiesUsed: ["HTML5", "JavaScript(ES6)", "CSS", "Bootstrap", "Laravel", "AJAX"],
     img: "/img/tasa-del-dia/main.PNG",
     url: "proyectos/tasa-del-dia",
   } */
   {
-    title: " Aplicacion web para la gestion de finanzas personales",
+    title: " Aplicacion Web para la Gestion de Finanzas Personales",
     technologiesUsed: [
       "HTML5",
       "CSS",
@@ -37,7 +51,7 @@ const PROJECTS = [
       "MVC",
       "AJAX",
     ],
-    img: "/img/calidad-financiera/admin.PNG",
+    img: "/img/calidad-financiera/dinero.PNG",
     url: "proyectos/calidad-financiera",
   },
   {
@@ -55,7 +69,7 @@ const PROJECTS = [
     url: "proyectos/gregorin",
   },
   {
-    title: " Aplicación web para sesiones de logopedia personalizadas para dislalia ",
+    title: " Aplicación Web para Sesiones de Logopedia Personalizadas para Dislalia ",
     technologiesUsed: [
       "HTML5",
       "CSS",
@@ -69,7 +83,7 @@ const PROJECTS = [
     url: "proyectos/sonidos-del-habla",
   },
     {
-    title: " Aplicación web para niños de primaria con discalculia ",
+    title: " Aplicación Web para Niños de Primaria con Discalculia ",
     technologiesUsed: [
       "HTML5",
       "CSS",
@@ -84,7 +98,7 @@ const PROJECTS = [
   },
   {
     title:
-      " Aplicación web para el aprendizaje de la lectoescritura en niños de primaria con dislexia",
+      " Aplicación Web para el aprendizaje de la lectoescritura en niños de primaria con dislexia",
     technologiesUsed: ["HTML5", "CSS", "JavaScript(ES6)", "Bootstrap", "PHP", "MySQL"],
     img: "./img/tu-puedes/create-account.JPG",
     url: "proyectos/tu-puedes",

@@ -2,12 +2,67 @@
 import Layout from "@/components/Layout.vue";
 import ShowProject from "@/components/ShowProject.vue";
 const TOTAL_INFORMATION_PROJECTS = {
+  logi_plan: {
+    title:
+      "Sistema Web de Monitoreo y Gestión Logística de Rutas Terrestres Urbanas",
+    meta: {
+      type_project: "Logístico",
+      
+      deploy: "https://logi-plan.free.nf/",
+    },
+    media: {
+      file: "logi-plan",
+      thumbnails: [
+        {
+          src: "dashboard-administrativo.PNG",
+          alt: "Panel Administrativo",
+        },
+        {
+          src: "Gestion-de-pedidos.PNG",
+          alt: "Gestion de pedido",
+        },
+        {
+          src: "geolocalizacion.PNG",
+          alt: "Geolocalizacion",
+        },
+        {
+          src: "centros-de-distribucion.PNG",
+          alt: "Centro de distribucion",
+        },
+        {
+          src: "control-y-geolocalización-de-rutas.PNG",
+          alt: "Control y geolocalizacion de rutas",
+        },
+      ],
+      main: "iniciar-sesion.PNG",
+    },
+    content: {
+      objective: ` Desarrollar un Sistema Web de Monitoreo y Gestión Logística de Rutas Terrestres Urbanas`,
+      audience: {
+        groups: [
+          {
+            title: "Niños:",
+            description:
+              "Estudiantes/Pacientes de entre 7 y 12 años con diagnóstico de discalculia verbal.",
+          },
+          {
+            title: "Profesionales:",
+            description:
+              "Terapeutas ocupacionales, psicopedagogos y profesores especializados en dificultades de aprendizaje.",
+          },
+        ],
+      },
+      scope_: `
+LogiPlan fue un Sistema Web de Gestión Logística Integral desarrollado para una tesis universitaria, enfocado en la planificación de rutas terrestres y la trazabilidad de envíos urbanos. El sistema implementa un componente de geolocalización y está estructurado en tres roles (Administrador, Planificador, Conductor) para centralizar la gestión de recursos, operaciones de paquetería y el control diario de rutas, cumpliendo el objetivo académico de demostrar la eficiencia en la optimización logística.        `,
+    },
+  },
   espacio_n: {
-    title: " Aplicación web para niños de primaria con discalculia ",
+    title: " Aplicación Web para Niños de Primaria con Discalculia ",
     meta: {
       type_project: "Educativo",
       GitHub: "https://github.com/YaneriPerdomo/spaceN",
-      video: "https://www.instagram.com/p/DF1M4RAgU6HknISxMbvL8O_9b8pXlRGC005MB00/",
+      video:
+        "https://www.instagram.com/p/DF1M4RAgU6HknISxMbvL8O_9b8pXlRGC005MB00/",
       deploy: "https://proyecto-yp.infinityfree.me/espacio-n/",
     },
     media: {
@@ -60,18 +115,23 @@ const TOTAL_INFORMATION_PROJECTS = {
     },
   },
   calidad_financiera: {
-    title: "Aplicación web para la gestion de finanzas personales",
+    title: "Aplicación Web para la Gestion de Finanzas Personales",
     meta: {
       type_project: "Administrativo",
       GitHub: "https://github.com/YaneriPerdomo/calidad-financiera",
-      video: null,
-      deploy: "https://proyecto-yp.infinityfree.me/calidad-financiera/public/login"
+      video: "https://www.youtube.com/watch?v=F90w6pDA7-8&t=3s",
+      deploy:
+        "https://proyecto-yp.infinityfreeapp.com/calidad-financiera/public/create-account",
     },
     media: {
       file: "calidad-financiera",
       thumbnails: [
         {
-          src: "createAccount.PNG",
+          src: "iniciar-sesion.PNG",
+          alt: "Indicadores",
+        },
+        {
+          src: "crear-cuenta.PNG",
           alt: "Presentacion",
         },
         {
@@ -79,34 +139,30 @@ const TOTAL_INFORMATION_PROJECTS = {
           alt: "Diagrama de casos de uso",
         },
         {
-          src: "admin.PNG",
+          src: "dinero.PNG",
           alt: "Indicador",
         },
         {
           src: "transaccion.PNG",
           alt: "Panel de control",
         },
-        {
-          src: "profile.PNG",
-          alt: "Indicadores",
-        },
+        
       ],
       main: "Presentacion-(1).png",
     },
     content: {
       objective: `Desarrollar una aplicación web para la gestión de finanzas personales.`,
-      scope_: `Calidad Financiera, es una aplicación web de gestión de finanzas personales, desarrollada para una tesis universitaria de un estudiante 
-      con el objetivo de proporcionar una solución integral y eficaz para el control financiero.
-       El sistema web fue diseñado para simplificar y optimizar la gestión de ingresos y gastos de personas de todas las edades.`,
+      scope_: `El proyecto Calidad Financiera fue un desarrollo web para una tesis universitaria, clasificado como un Sistema de Gestión Financiera Personal (PFM). El objetivo fue proporcionar una solución integral que simplificara la gestión, registro y monitoreo de ingresos y gastos de personas de todas las edades. El sistema permite el control de transacciones y el establecimiento de presupuestos, cumpliendo el propósito académico de ofrecer una herramienta eficaz para mejorar la planificación y el control financiero personal.`,
     },
   },
   tu_puedes: {
     title:
-      "Aplicación web para el aprendizaje de la lectoescritura en niños con dislexia en etapa primaria.",
+      "Aplicación Web para el Aprendizaje de la Lectoescritura en Niños con Dislexia en Etapa Primaria.",
     meta: {
       type_project: "Educativo",
       GitHub: "https://github.com/YaneriPerdomo/Tu-puedes",
-      video: "https://www.instagram.com/p/DF1N9smAGsmUe-vpDgeJtGLcnTyz40rTlhUsgQ0/",
+      video:
+        "https://www.instagram.com/p/DF1N9smAGsmUe-vpDgeJtGLcnTyz40rTlhUsgQ0/",
     },
     media: {
       file: "tu-puedes",
@@ -140,11 +196,12 @@ const TOTAL_INFORMATION_PROJECTS = {
     },
   },
   asistente_virtual_gregorin: {
-    title: "Asistente virtual para la Universidad Dr. José Gregorio Hernández",
+    title: "Asistente Virtual para la Universidad Dr. José Gregorio Hernández",
     meta: {
       type_project: "de Sistema Experto",
       GitHub: "https://github.com/YaneriPerdomo/chatbot-UJGH",
-      video: "https://www.instagram.com/p/DF1RJETgO1aRGrR_VHoIQc5-E9QCTFJMDXmXYA0/",
+      video:
+        "https://www.instagram.com/p/DF1RJETgO1aRGrR_VHoIQc5-E9QCTFJMDXmXYA0/",
       deploy: "https://proyecto-yp.infinityfree.me/gregorin/",
     },
     media: {
@@ -179,11 +236,13 @@ const TOTAL_INFORMATION_PROJECTS = {
     },
   },
   sonidos_del_habla: {
-    title: "Aplicación web para sesiones de logopedia personalizadas para dislalia",
+    title:
+      "Aplicación Web para Sesiones de Logopedia Personalizadas para Dislalia",
     meta: {
       type_project: "Educativo",
       GitHub: "https://github.com/YaneriPerdomo/sonidos-del-habla",
-      video: "https://www.instagram.com/p/DGPRvamg8iU6AHwYbmzT89LBaMswAeoq4pkVOM0/",
+      video:
+        "https://www.instagram.com/p/DGPRvamg8iU6AHwYbmzT89LBaMswAeoq4pkVOM0/",
     },
     media: {
       file: "sonidos-del-habla",
@@ -255,17 +314,19 @@ const TOTAL_INFORMATION_PROJECTS = {
     },
   },*/
   stock_yp: {
-    title: "Aplicacion web para el control de ventas e inventarios",
+    title: "Aplicacion Web para el Control de Ventas e inventarios",
     meta: {
       type_project: "Administrativo",
       GitHub: "https://github.com/YaneriPerdomo/StockYP",
       video: "https://www.youtube.com/watch?v=ik28b0m4Dkk",
+      deploy:
+        "https://proyecto-yp.infinityfreeapp.com/sistema-de-inventario/iniciar-sesion",
     },
     media: {
       file: "StockYp",
       thumbnails: [
         {
-          src: "welcome.PNG",
+          src: "panel.PNG",
           alt: "Aplicacion web",
         },
         {
@@ -273,11 +334,11 @@ const TOTAL_INFORMATION_PROJECTS = {
           alt: "Proyecto a nivel de codigo",
         },
         {
-          src: "venta.PNG",
+          src: "historial.PNG",
           alt: "Dispositivo movil",
         },
         {
-          src: "information.PNG",
+          src: "iniciar-sesion (2).PNG",
           alt: "Diagrama de flujo",
         },
         {
@@ -314,6 +375,8 @@ if (URL.pathname.includes("tasa-del-dia")) {
   projectSelected = TOTAL_INFORMATION_PROJECTS.asistente_virtual_gregorin;
 } else if (URL.pathname.includes("stock-yp")) {
   projectSelected = TOTAL_INFORMATION_PROJECTS.stock_yp;
+} else if (URL.pathname.includes("logi-plan")) {
+  projectSelected = TOTAL_INFORMATION_PROJECTS.logi_plan;
 }
 
 let selectImage = (img) => {

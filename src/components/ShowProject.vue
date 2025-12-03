@@ -7,12 +7,10 @@ const props = defineProps({
 });
 
 let getThumbnailSrc = (folder, filename) => {
-  // `getSrcImg` se cambió a `getThumbnailSrc`
   return "../img/" + folder + "/" + filename;
 };
 
 const selectMainImage = (event) => {
-  // `prueba` se cambió a `selectMainImage`
   const thumbnailFilename = event.target.getAttribute("data-img");
   currentMainImage.value = getThumbnailSrc(
     props.projectData.media.file,
@@ -22,8 +20,8 @@ const selectMainImage = (event) => {
 let initialMainImageUrl = getThumbnailSrc(
   props.projectData.media.file,
   props.projectData.media.main
-); // `mainUrl` se cambió a `initialMainImageUrl`
-const currentMainImage = ref(initialMainImageUrl); // `projectSelected` se cambió a `currentMainImage`
+); 
+const currentMainImage = ref(initialMainImageUrl);
 </script>
 <template>
   <div class="project">

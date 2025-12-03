@@ -3,11 +3,12 @@ import Layout from "@/components/Layout.vue";
 import List from "@/components/List.vue";
 const WORK_EXPERIENCE = {
   firstPlace: {
-    title: "Desarrolladora Web Independiente (2025 - 2025) ",
+    title: "Desarrolladora Web Independiente (2025 - Presente) ",
     functions: [
-      " Desarrollo e implementación de un Sistema Web para el control de ventas e inventarios para un negocio de auto partes. ",
-      " Diseño y desarrollo de un Sistema Web para la gestión de finanzas personales. ",
-      " Diseño y desarrollo de un Sistema Web para mejorar la lectoescritura en niños de primaria con dislexia (Proyecto de Tesis). ",
+      " Diseño y Desarrollo Sistema Web de Monitoreo y Gestión Logística de Rutas Terrestres Urbanas ",
+      " Desarrollo e Implementación de un Sistema Web para el Control de Ventas e Inventarios para un Negocio de Auto Partes. ",
+      " Diseño y Desarrollo de un Sistema Web para la Gestión de Finanzas Personales. ",
+      " Diseño y Desarrollo de un Sistema Web para Mejorar la Lectoescritura en Niños de Primaria con Dislexia (Proyecto de Tesis). ",
       " Responsabilidad por todo el ciclo del proyecto, desde la concepción hasta la implementación. ",
     ],
   },
